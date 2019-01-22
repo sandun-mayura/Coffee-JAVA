@@ -60,10 +60,9 @@ if (cNumber<=coffeeArray.length) {
                 totalPrice = cQuantity * 10;
                 System.out.println("TOTAL-AMOUNT : $" + totalPrice);
                 break;
-
-            // You can have any number of case statements.
+				
             default:
-                System.out.println("You enter item number is not exiting.");
+                System.out.println("You enter item number is not existing.");
 
         }
     }
