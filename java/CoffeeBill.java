@@ -25,7 +25,7 @@ public class CoffeeBill {
         String quantity = scanner.nextLine(); //get coffee quantity
         int cQuantity = Integer.parseInt(quantity);// convert to Int
 
-        System.out.println( coffeeArray.length);
+        
 if (cNumber<=coffeeArray.length) {
 
     System.out.println("------BILL DESCRIPTION-------");
